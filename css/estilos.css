@@ -1,0 +1,135 @@
+@media (min-width: 900px) {
+		#contenido{
+			max-width: 900px;
+			margin: 0 auto;
+		}
+	}
+  	
+  
+	body{
+		font-family: "Dancing Script";
+		background: #02010a;
+	}
+  
+	.cabecera{
+		height: 60px;
+		width: 100%;
+		background: #5b7989;
+		border-radius: 10px 10px 0px 0px;		
+	}
+	.cabecera > div{
+		width: 50%;
+		float: left;
+	}
+	.tituloCabecera{		
+		color: #ffffff;
+		text-shadow: 2px 2px 2px #02010a;
+		border-radius: 10px 10px 0px 0px;
+		font-size: 1.3rem;
+		padding: 0px 20px 0px 20px;
+	}
+	#menu{
+		text-align: center;		
+		float: right;
+		padding: 0px 20px 0px 20px;
+	}
+	#menu li{
+		display: inline-block;
+		color: #ffffff;
+	}
+	#menu li a{
+		color: #ffffff;
+	}
+	.paginaActual{
+		text-decoration: none;
+	}
+	.contenedorImagenCentral{
+		background: #82c3a6;
+		text-align: center;
+		padding: 20px 0px 15px 15px;
+	}
+	.contenedorImagenCentral img{
+		width:80%;
+	}
+	.contenedorImagenesSecundarias{
+		background: #d5c75f;
+		border: 1px solid #9d9696;
+		
+		flex-wrap: wrap;
+	}
+	
+	.contenedorImagenesSecundarias div{
+		padding: 20px 0px 15px 15px;
+		
+		flex-grow: 1;
+		flex: 1 1 30% !important;
+	}
+	
+	.contenedorImagenesSecundarias img{ 
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	@media only screen and (min-width: 640px) {
+	  .contenedorImagenesSecundarias {
+		display: flex;
+	  }	  
+	  footer{
+		display: flex;
+	  }
+	}
+	
+	@media (max-width: 640px) {
+		.tituloCabecera{
+			font-size: 1rem;
+		}
+	}
+	
+	.paisajes:hover {
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		transform: rotate(10deg);
+		box-shadow: 2px 2px #82c3a6;
+		cursor: pointer;
+	}
+	
+	.retratos:hover {
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		transform: translate(20px, -5px);
+		box-shadow: 2px 2px #82c3a6;
+		cursor: pointer;
+	}
+	
+	img{
+		box-shadow: 2px 2px #02010a;
+	}
+	
+	footer{
+		background: #C6d5c5;
+		border-radius: 0px 0px 10px 10px;
+	}
+	
+	footer h2{
+		padding: 5px;
+		margin: 0;		
+	}
+	
+	footer section{
+		padding: 5px;
+	}
+	
+	.imgUno{
+		-webkit-filter: blur(4px);
+		filter: blur(4px);
+	}
+    .imgDos, .imgCuatro, .imgSeis{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+	.imgTres{
+		-webkit-filter: sepia(90%);
+		filter: sepia(90%);
+	}
+	
